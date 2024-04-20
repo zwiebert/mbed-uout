@@ -1,4 +1,4 @@
-set(srcs status_json.cc callbacks.cc cli_out.cc  so_out.cc so_target_desc.cc)  
+set(srcs src/status_json.cc src/callbacks.cc src/cli_out.cc  src/so_out.cc src/so_target_desc.cc)  
 
 if(COMMAND idf_component_register)
 idf_component_register(SRCS ${srcs} 
@@ -12,6 +12,6 @@ else()
 
 add_library(uout STATIC ${srcs})
 target_include_directories(uout PUBLIC ./include)
-target_link_libraries(uout PUBLIC utils_debug utils_misc PRIVATE cli)
+target_link_libraries(uout PUBLIC utils_debug utils_misc)
 
 endif()
