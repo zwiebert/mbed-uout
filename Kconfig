@@ -1,2 +1,1 @@
 rsource "components/uout/Kconfig"
-rsource "external/util-components/Kconfig.projbuild"
