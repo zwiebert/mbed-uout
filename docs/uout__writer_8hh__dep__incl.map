@@ -1,0 +1,5 @@
+<map id="uout/uout_writer.hh" name="uout/uout_writer.hh">
+<area shape="rect" id="node1" title="Provide an output class hierarchy which knows about the required format (text or JSON) and write func..." alt="" coords="7,5,155,32"/>
+<area shape="rect" id="node2" href="$uo__types_8h.html" title="API parameter and return types." alt="" coords="17,80,144,107"/>
+<area shape="rect" id="node3" href="$uo__callbacks_8h.html" title="pub/sub interface to publish asynchronously to MQTT servers, HTTP&#45;client web&#45;sockets,..." alt="" coords="5,155,156,181"/>
+</map>
