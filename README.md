@@ -4,7 +4,7 @@ User output as text or JSON
 
 
 #### Documentation
-   *  View [API documentation](https://zwiebert.github.io/uout/api) 
+   *  View [API documentation](https://zwiebert.github.io/mbed-uout/api) 
    *  Create and view API documentation `make doxy-api-view`
    *  Crate and view source documentation `make doxy-dev-view`
 
