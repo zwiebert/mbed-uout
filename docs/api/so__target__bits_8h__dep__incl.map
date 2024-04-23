@@ -1,0 +1,7 @@
+<map id="uout/so_target_bits.h" name="uout/so_target_bits.h">
+<area shape="rect" id="node1" title="flags to select output formats and targets" alt="" coords="75,5,233,32"/>
+<area shape="rect" id="node2" href="$so__out_8h.html" title="write formatted output to UoutWriter" alt="" coords="5,80,116,107"/>
+<area shape="rect" id="node3" href="$uo__types_8h.html" title="API parameter and return types." alt="" coords="60,229,187,256"/>
+<area shape="rect" id="node5" href="$uout__writer_8hh.html" title="Provide an output class hierarchy which knows about the required format (text or JSON) and write func..." alt="" coords="49,155,197,181"/>
+<area shape="rect" id="node4" href="$uo__callbacks_8h.html" title="pub/sub interface to publish asynchronously to MQTT servers, HTTP&#45;client web&#45;sockets,..." alt="" coords="48,304,199,331"/>
+</map>
