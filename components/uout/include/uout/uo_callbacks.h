@@ -112,7 +112,7 @@ struct uoCb_Idxs {
 /**
  * \brief       Filter all call-backs
  * \param flags Exactly one format bit must be set here. A callback will match if any in flags_evt or flags_tgt matches with callback flags.
- * \return      The matching call-backs to be used in calling \linke uoCb_publish \endlink.
+ * \return      The matching call-backs to be used in calling @ref uoCb_publish .
  */
 uoCb_Idxs uoCb_filter(uo_flagsT flags);
 
@@ -120,7 +120,7 @@ uoCb_Idxs uoCb_filter(uo_flagsT flags);
  * \brief       Filter all call-backs
  * \param flags Exactly one format bit must be set here. A callback will match if any in flags_evt or flags_tgt matches with callback flags.
  * \param idxs  The set of call-backs to match from.
- * \return      The matching call-backs to be used in calling \linke uoCb_publish \endlink.
+ * \return      The matching call-backs to be used in calling @ref uoCb_publish .
  */
 uoCb_Idxs uoCb_filter(uo_flagsT flags, uoCb_Idxs idxs);
 
