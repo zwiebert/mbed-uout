@@ -67,7 +67,7 @@ void  cli_msg_ready(class UoutWriter &td) {
   td.write("\nready:\n");
 }
 
-void  reply_id_message(class UoutWriter &td, uint16_t id, const char *tag, const char *msg) {
+void  reply_id_message(class UoutWriter &td, uint16_t, const char *tag, const char *msg) {
  if (!cli_isInteractive())
     return;
 
