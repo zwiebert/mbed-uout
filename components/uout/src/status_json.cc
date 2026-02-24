@@ -154,7 +154,8 @@ bool UoutBuilderJson::read_json_from_function(std::function<int(char *buf, size_
 
     if (n = f(myBuf + myBuf_idx, (myBuf_size - myBuf_idx)); 0 < n && n < (myBuf_size - myBuf_idx)) {
       myBuf_idx += n;
-      myBuf[myBuf_idx++] = ',';
+      if (myBuf[myBuf_idx -1] != ',')
+        myBuf[myBuf_idx++] = ',';
       myBuf[myBuf_idx] = '\0';
 
       postcond(myBuf_size > myBuf_idx);
