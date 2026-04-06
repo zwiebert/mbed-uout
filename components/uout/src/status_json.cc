@@ -117,7 +117,7 @@ char* UoutBuilderJson::get_a_buffer(size_t required_size) {
 }
 bool UoutBuilderJson::advance_position(int n) {
   unsigned pos = myBuf_idx + n;
-  if (!(0 <= pos && pos <= myBuf_size)) // allow position to be one behind buffer end
+  if (!(pos <= myBuf_size)) // allow position to be one behind buffer end
     return false;
   myBuf_idx = pos;
 
