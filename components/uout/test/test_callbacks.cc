@@ -1,4 +1,7 @@
 #include <unity.h>
+#ifdef TEST_HOST
+#include <test_runner.h>
+#endif
 
 #include <uout/uo_callbacks.h>
 
@@ -88,14 +91,9 @@ static void t_wsJson() {
   TEST_ASSERT_EQUAL_STRING(json, MsgJson);
 }
 
-
-int main() {
-  UNITY_BEGIN();
-
-  RUN_TEST(t_pch);
-  RUN_TEST(t_ipAddr);
-  RUN_TEST(t_wsJson);
-
-  return UNITY_END();
+TEST_CASE("callbacks", "[uout]")
+{
+  t_pch();
+  t_ipAddr();
+  t_wsJson();
 }
-
