@@ -10,8 +10,8 @@ idf_component_register(SRCS ${srcs}
     PRIV_INCLUDE_DIRS "./include/uout" 
     REQUIRES  utils_debug utils_misc 
 )
-component_compile_options(${comp_compile_opts})
-component_compile_features(${comp_compile_feats})
+ 
+target_compile_options(${COMPONENT_LIB} PRIVATE "SHELL:-include sdkconfig.h")
 else()
 
 add_library(uout STATIC ${srcs})
